@@ -1,0 +1,140 @@
+body{
+    background-color: black;
+    width: auto;
+    height: auto;
+    background-image: url(/img/background.jpg   );
+
+}
+
+html{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* HEADER */
+
+
+
+.botonera{
+    width: 100%;
+    background-color: rgba(120, 120, 120, 0.09);
+}
+
+.link1{
+    color: black;
+    text-decoration: none;
+    
+}
+
+
+.subhead1{
+    width: auto;
+    
+}
+
+
+.head1title{
+    width: auto;
+    background-color: transparent;
+}
+
+.subhead1title{
+    
+    
+    min-width: 33%;
+    color: black;
+    font-size:40px;
+    text-align: center;
+    background-color: rgba(120, 120, 120, 0.09);
+}
+
+
+/* SECTIONS */
+
+.sections{
+    position: absolute;
+    padding: 1em;
+    width: 1500px;
+    height: auto;
+    display: flexbox;
+    margin-left: 150px;
+}
+
+.sections a{
+    text-decoration: none;
+    
+}
+
+/* ARTICLES AND SECTORS */
+
+.articles{
+    width: 100%;
+    min-width: 33%;
+}
+
+/* SECTOR1 */
+
+.sector1_title{
+    background-color: transparent;
+    box-shadow: 1px 1px 10px 1px hsl(100, 10%, 50%);
+    padding: 5px;
+    text-align: center;
+
+}
+
+.sector1_title h2{
+    color: black;
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+       
+}
+
+.sector1 a{
+    color: gray;
+}
+
+
+.figure1{
+    margin: 0;
+       
+}
+
+.img1{
+    
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 33%;
+    padding: 5px;
+    height: 350px;
+    margin-top: 10px;
+}
+
+.sector1_img{
+    padding: 1.5em;
+}
+
+.sector1_img p{
+    font-size: 100%;
+}
+
+/*flex*/
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sector1{
+    width: 200px;
+    min-width: 60%;
+    box-sizing: border-box;
+    border: solid 5px hsl(0, 0%, 10%);
+    padding: 100px;
+    
+    
+}
+
+
+
+

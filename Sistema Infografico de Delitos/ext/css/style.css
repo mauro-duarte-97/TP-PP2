@@ -1,0 +1,249 @@
+body{
+    background-color: black;
+    width: auto;
+    height: auto;
+    background-image: url(/img/HubbleLegacyField.jpg);
+
+}
+
+html{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* HEADER */
+
+
+
+.botonera{
+    width: 100%;
+    background-color: rgba(120, 120, 120, 0.09);
+}
+
+.link1{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+.subhead1{
+    width: auto;
+    
+}
+
+
+.head1title{
+    width: auto;
+    background-color: transparent;
+}
+
+.subhead1title{
+    
+    
+    min-width: 33%;
+    color: orange;
+    font-size:40px;
+    text-align: center;
+    background-color: rgba(120, 120, 120, 0.09);
+}
+
+
+/* SECTIONS */
+
+.sections{
+    margin: 40px;
+    padding: 0.5em;
+    width: auto;
+    height: auto;
+    
+}
+
+.sections a{
+    text-decoration: none;
+    
+}
+
+/* ARTICLES AND SECTORS */
+
+.articles{
+    width: 100%;
+    min-width: 33%;
+}
+
+/* SECTOR1 */
+
+.sector1_title{
+    background-color: transparent;
+    box-shadow: 1px 1px 10px 1px hsl(100, 10%, 50%);
+    padding: 5px;
+    text-align: center;
+
+}
+
+.sector1_title h2{
+    color: orange;
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+       
+}
+
+.sector1 a{
+    color: gray;
+}
+
+
+.figure1{
+    margin: 0;
+       
+}
+
+.img1{
+    
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 33%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+/* SECTOR2 */
+
+.sector2_title{
+    background-color: transparent rgba(56, 56, 56, 0.1);
+    box-shadow: 1px 1px 10px 1px hsl(100, 10%, 50%);
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+.sector2_title h2{
+    color: orange;
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+    
+}
+
+.sector2 a{
+    color: gray;
+}
+
+
+.figure2{
+    margin: 0;
+       
+}
+
+.img2{
+    
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 33%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+/* SECTOR3 */
+
+
+
+ .sector3_title{
+    background-color: transparent rgba(56, 56, 56, 0.1);
+    box-shadow: 1px 1px 10px 1px hsl(100, 10%, 50%);
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+.sector3_title h2{
+    color: orange;
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+}
+
+.sector3 a{
+    color: gray;
+}
+
+.sector3 a:hover {
+    box-shadow: 3px 3px 8px hsl(50, 1%, 50%);   
+}
+
+.figure3{
+    margin: 0;
+       
+}
+
+.img3{
+    
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 33%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+
+.sector1_img{
+    padding: 1.5em;
+}
+
+.sector1_img p{
+    font-size: 100%;
+}
+
+.sector2_img{
+    padding: 1.5em;
+}
+
+.sector2_img p{
+    font-size: 100%;
+}
+
+.sector3_img{
+    padding: 1.5em;
+}
+
+.sector3_img p{
+    font-size: 100%;
+}
+
+
+/*flex*/
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sector1{
+    width: 350px;
+    min-width: 33%;
+    box-sizing: border-box;
+    border: solid 5px hsl(0, 0%, 10%);
+    padding: 10px;
+    
+}
+
+.sector2{
+    width: 350px;
+    min-width: 33%;
+    box-sizing: border-box;
+    border: solid 5px hsl(0, 0%, 10%);
+    padding: 10px;
+}
+
+.sector3{
+    width: 350px;
+    min-width: 33%;
+    box-sizing: border-box;
+    border: solid 5px hsl(0, 0%, 10%);
+    padding: 10px;
+}
+
